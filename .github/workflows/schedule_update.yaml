@@ -19,6 +19,8 @@ on:
 
 jobs:
   Update-file:
+    # Link to the environment SG1 that provides secrets
+    environment: HF
     runs-on: ubuntu-latest
     steps:
       # Checks-out repository under $GITHUB_WORKSPACE, so as to access it
@@ -73,7 +75,7 @@ jobs:
           # env | grep CASCADIA_
           echo ls -l ~/bin
           ls -l ~/bin
-          echo login
+          echo login with ${{secrets.UMAIL}}:${{secrets.UPASS}}
           curl 'https://www.insidermonkey.com/services/login.php'  --data-raw 'umail=${{secrets.UMAIL}}&upass=${{secrets.UPASS}}&rm=on&rurl=' -c ~/downloaded/cookies
           echo cookies
           cat ~/downloaded/cookies
