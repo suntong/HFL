@@ -1,5 +1,9 @@
 name: Schedule update
 
+env:
+   CASCADIA_V: 1.2.3
+   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
+
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
@@ -18,12 +22,46 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set env
+        # makes it available to all subsequent actions in the current job
+        # the currently running action cannot access the updated variable
         run: |
+          env | grep CASCADIA_
+          echo "$HOME/bin" >> $GITHUB_PATH
+          echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
           echo "today=$(date -I)" >> $GITHUB_ENV
+
+      - name: Cache Binary
+        uses: actions/cache@v2
+        id: cache
+        with:
+          path: |
+            ~/downloaded
+            ~/bin
+          key: bin
+
+      - name: Download Binary
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          env | grep CASCADIA_
+          mkdir -p ~/downloaded
+          cd ~/downloaded
+          rm -f *
+          wget https://github.com/suntong/cascadia/releases/download/v${CASCADIA_V}/${CASCADIA_F}.tar.gz
+          tar -tvzf ${CASCADIA_F}.tar.gz
+          mkdir -p ~/bin
+          tar -xvzf ${CASCADIA_F}.tar.gz -C ~/bin
+          ln -vs ${CASCADIA_F}/cascadia ~/bin
+          ls -l ~/bin ~/bin/${CASCADIA_F}
+          ~/bin/${CASCADIA_F}/cascadia
+          echo $PATH
+          cascadia
 
       - name: Update
         run: |
-          touch sample_$today.txt
+          env | grep CASCADIA_
+          curl 'https://www.insidermonkey.com/services/login.php'  --data-raw 'umail=${{secrets.UMAIL}}&upass=${{secrets.UPASS}}&rm=on&rurl=' -c ~/downloaded/cookies
+          curl -b ~/downloaded/cookies https://www.insidermonkey.com/insider-trading/company/microsoft+corp/789019/hedge-funds/ | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > MSFT.html
+
           ls -lah
 
       - name: Commit changes
