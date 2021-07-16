@@ -70,13 +70,18 @@ jobs:
 
       - name: Update
         run: |
-          env | grep CASCADIA_
+          # env | grep CASCADIA_
+          echo ls -l ~/bin
           ls -l ~/bin
+          echo login
           curl 'https://www.insidermonkey.com/services/login.php'  --data-raw 'umail=${{secrets.UMAIL}}&upass=${{secrets.UPASS}}&rm=on&rurl=' -c ~/downloaded/cookies
+          echo cookies
+          cat ~/downloaded/cookies
+
           csvFile=HF.csv
           while IFS="," read tick url
           do
-            echo "$tick: $url"
+            echo "downloading $tick: $url"
             curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
           done < "$csvFile"
           ls -l
