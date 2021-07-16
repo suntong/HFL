@@ -75,4 +75,4 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          message: "added on ${{ env.today }}"
+          message: "- [#] updated on ${{env.today}}"
