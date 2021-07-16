@@ -1,10 +1,14 @@
 name: Schedule update
 
 env:
-   CASCADIA_V: 1.2.3
-   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
+  URL_PRE: https://www.insidermonkey.com/insider-trading/company
+  URL_SUR: hedge-funds/
+
+  CASCADIA_V: 1.2.3
+  CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
 
 on:
+  push:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '5 17 * * */2'
@@ -68,9 +72,13 @@ jobs:
         run: |
           env | grep CASCADIA_
           curl 'https://www.insidermonkey.com/services/login.php'  --data-raw 'umail=${{secrets.UMAIL}}&upass=${{secrets.UPASS}}&rm=on&rurl=' -c ~/downloaded/cookies
-          curl -b ~/downloaded/cookies https://www.insidermonkey.com/insider-trading/company/microsoft+corp/789019/hedge-funds/ | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > MSFT.html
-
-          ls -lah
+          csvFile=HF.csv
+          while IFS="," read tick url
+          do
+            echo "$tick: $url"
+            curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
+          done < "$csvFile"
+          ls -l
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
