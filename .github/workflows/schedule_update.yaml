@@ -40,7 +40,7 @@ jobs:
           key: bin
 
       - name: Download Binary
-        #if: steps.cache.outputs.cache-hit != 'true'
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           env | grep CASCADIA_
           mkdir -p ~/downloaded
