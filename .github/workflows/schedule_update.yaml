@@ -1,0 +1,29 @@
+name: Schedule update
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '5 17 * * */2'
+    # At 17:05 on every 2nd day-of-week
+
+jobs:
+  Update-file:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out repository under $GITHUB_WORKSPACE, so as to access it
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Set env
+        run: |
+          echo "today=$today" >> $GITHUB_ENV
+
+      - name: Update
+        run: |
+          touch sample_$today.txt
+          ls -lah
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: "added on ${{ env.today }}"
