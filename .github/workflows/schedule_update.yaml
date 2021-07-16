@@ -40,7 +40,7 @@ jobs:
           key: bin
 
       - name: Download Binary
-        if: steps.cache.outputs.cache-hit != 'true'
+        #if: steps.cache.outputs.cache-hit != 'true'
         run: |
           env | grep CASCADIA_
           mkdir -p ~/downloaded
@@ -55,6 +55,14 @@ jobs:
           ~/bin/${CASCADIA_F}/cascadia
           echo $PATH
           cascadia
+
+          cd ~/downloaded
+          apt-get download tidy
+          debFile=`ls tidy_*_amd64.deb`
+          ar p $debFile data.tar.xz | tar xJv --strip-components=2 -f - -C ~/
+          ls -l ~/bin
+          tidy -version
+
 
       - name: Update
         run: |
