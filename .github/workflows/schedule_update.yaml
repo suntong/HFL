@@ -6,6 +6,9 @@ on:
     - cron:  '5 17 * * */2'
     # At 17:05 on every 2nd day-of-week
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   Update-file:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
 
       - name: Set env
         run: |
-          echo "today=$today" >> $GITHUB_ENV
+          echo "today=$(date -I)" >> $GITHUB_ENV
 
       - name: Update
         run: |
