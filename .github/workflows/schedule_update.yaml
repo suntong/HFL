@@ -41,7 +41,7 @@ jobs:
           path: |
             ~/downloaded
             ~/bin
-          key: bin
+          key: bin_2021-07-16
 
       - name: Download Binary
         if: steps.cache.outputs.cache-hit != 'true'
@@ -71,6 +71,7 @@ jobs:
       - name: Update
         run: |
           env | grep CASCADIA_
+          ls -l ~/bin
           curl 'https://www.insidermonkey.com/services/login.php'  --data-raw 'umail=${{secrets.UMAIL}}&upass=${{secrets.UPASS}}&rm=on&rurl=' -c ~/downloaded/cookies
           csvFile=HF.csv
           while IFS="," read tick url
