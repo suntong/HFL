@@ -7,6 +7,9 @@ env:
   CASCADIA_V: 1.2.5
   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
 
+  TZ: 'America/Toronto'
+
+
 on:
   push:
   schedule:
@@ -34,7 +37,7 @@ jobs:
           env | grep CASCADIA_
           echo "$HOME/bin" >> $GITHUB_PATH
           echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
-          echo "today=$(date -I)" >> $GITHUB_ENV
+          echo "today=$(date -Iseconds)" >> $GITHUB_ENV
 
       - name: Cache Binary
         uses: actions/cache@v2
