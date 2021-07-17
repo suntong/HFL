@@ -37,7 +37,7 @@ jobs:
           env | grep CASCADIA_
           echo "$HOME/bin" >> $GITHUB_PATH
           echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
-          echo "today=$(date -Iseconds)" >> $GITHUB_ENV
+          echo "today=$(date -I)" >> $GITHUB_ENV
 
       - name: Cache Binary
         uses: actions/cache@v2
@@ -86,6 +86,10 @@ jobs:
           csvFile=HF.csv
           while IFS="," read tick url
           do
+            [ `expr "$tick" : '#'` -eq "1" ] && {
+              echo "skipping: $tick"
+              continue
+            }
             echo "downloading $tick: $url"
             curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
           done < "$csvFile"
