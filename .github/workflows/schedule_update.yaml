@@ -1,8 +1,8 @@
 name: Schedule update
 
 env:
-  URL_PRE: https://www.insidermonkey.com/insider-trading/company
-  URL_SUR: hedge-funds/
+  SURL_PRE: https://www.insidermonkey.com/insider-trading/company
+  SURL_SUR: hedge-funds/
 
   CASCADIA_V: 1.2.5
   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
@@ -83,7 +83,7 @@ jobs:
           echo cookies
           cat ~/downloaded/cookies
 
-          csvFile=HF.csv
+          csvFile=HFS.csv
           while IFS="," read tick url
           do
             [ `expr "$tick" : '#'` -eq "1" ] && {
@@ -91,7 +91,7 @@ jobs:
               continue
             }
             echo "downloading $tick: $url"
-            curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
+            curl -b ~/downloaded/cookies $SURL_PRE/$url/$SURL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > S-$tick.html
           done < "$csvFile"
           ls -l
 
