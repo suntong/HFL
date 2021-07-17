@@ -3,6 +3,8 @@ name: Schedule update
 env:
   SURL_PRE: https://www.insidermonkey.com/insider-trading/company
   SURL_SUR: hedge-funds/
+  IURL_PRE: https://www.insidermonkey.com/hedge-fund
+  IURL_SUR: holdings/
 
   CASCADIA_V: 1.2.5
   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
@@ -92,6 +94,17 @@ jobs:
             }
             echo "downloading $tick: $url"
             curl -b ~/downloaded/cookies $SURL_PRE/$url/$SURL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > S-$tick.html
+          done < "$csvFile"
+          csvFile=HFI.csv
+          while IFS="," read instu
+          do
+            [ `expr "$instu" : '#'` -eq "1" ] && {
+              echo "skipping: $instu"
+              continue
+            }
+            instn=`echo $instu | sed -E 's|/.*$||; s/\+/_/g; s/%[[:xdigit:]]{2}//g'`
+            echo "downloading $instn"
+            curl -b ~/downloaded/cookies $IURL_PRE/$instu/$IURL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > I_$instn.html
           done < "$csvFile"
           ls -l
 
