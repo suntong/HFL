@@ -4,7 +4,7 @@ env:
   URL_PRE: https://www.insidermonkey.com/insider-trading/company
   URL_SUR: hedge-funds/
 
-  CASCADIA_V: 1.2.3
+  CASCADIA_V: 1.2.5
   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
 
 on:
@@ -43,7 +43,7 @@ jobs:
           path: |
             ~/downloaded
             ~/bin
-          key: bin_2021-07-16
+          key: bin_2021-07-16-B
 
       - name: Download Binary
         if: steps.cache.outputs.cache-hit != 'true'
@@ -84,7 +84,7 @@ jobs:
           while IFS="," read tick url
           do
             echo "downloading $tick: $url"
-            curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
+            curl -b ~/downloaded/cookies $URL_PRE/$url/$URL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > $tick.html
           done < "$csvFile"
           ls -l
 
