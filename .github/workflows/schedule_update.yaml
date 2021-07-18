@@ -116,6 +116,11 @@ jobs:
           echo xsel
           set -x
           xsel -x '//tr[./td[text()="NEW"]]' -m -n `cat HFI.csv | sed -E 's|/.*$||; s/\+/_/g; s/%[[:xdigit:]]{2}//g; s/^.*$/I_&.html/'` | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no > I_NEW.html || true
+          printf "No. | Security | Ticker | Shares | Value (x\$1000) | Activity | %% Port\n|--- | --- | --- | ---:| ---:|:---:| ---:|\n " | tee I_NEW_sS.md I_NEW_sV.md I_NEW_sP.md
+          cat I_NEW.html | grep -i -e '</\?TABLE\|</\?TD\|</\?TR\|</\?TH' | sed 's/^[\ \t]*//g' | tr -d '\n' | sed 's/<\/TR[^>]*>/\n/Ig'  | sed 's/<\/\?\(TABLE\|TR\)[^>]*>//Ig' | sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//Ig' | sed 's/<\/T[DH][^>]*><T[DH][^>]*>/|/Ig; s/|\$/|/; s/<a href=//' | tee /tmp/t.md
+          cat /tmp/t.md | LC_ALL=en_US.utf8 sort -t'|' -k4 -r -h | tee -a I_NEW_sS.md
+          cat /tmp/t.md | LC_ALL=en_US.utf8 sort -t'|' -k5 -r -h | tee -a I_NEW_sV.md
+          cat /tmp/t.md | sort -t'|' -k7 -r -g | tee -a I_NEW_sP.md
 
           ls -l
 
