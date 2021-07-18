@@ -116,7 +116,7 @@ jobs:
 
           echo xsel
           set -x
-          xsel -x '//tr[./td[text()="NEW"]]' -m -n I_*.html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no > NEW.html || true
+          xsel -x '//tr[./td[text()="NEW"]]' -m -n I_*.html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no > I_NEW.html || true
 
           ls -l
 
