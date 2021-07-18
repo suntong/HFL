@@ -16,8 +16,9 @@ on:
   push:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '5 17 * * */2'
-    # At 17:05 on every 2nd day-of-week
+    #- cron:  '5 18 * * */2'
+    # At 18:05 *EST* (17:05 *EDT*) on every 2nd day-of-week. In UTC it is:
+    - cron:  '5 13 * * */2'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,7 +37,7 @@ jobs:
         # makes it available to all subsequent actions in the current job
         # the currently running action cannot access the updated variable
         run: |
-          env | grep CASCADIA_
+          echo "Started at $(date -Iseconds)"
           echo "$HOME/bin" >> $GITHUB_PATH
           echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
           echo "today=$(date -I)" >> $GITHUB_ENV
@@ -53,7 +54,6 @@ jobs:
       - name: Download Binary
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          env | grep CASCADIA_
           mkdir -p ~/bin
           mkdir -p ~/downloaded
           cd ~/downloaded
@@ -84,7 +84,6 @@ jobs:
 
       - name: Update
         run: |
-          # env | grep CASCADIA_
           echo ls -l ~/bin
           ls -l ~/bin
           echo login with ${{secrets.UMAIL}}:${{secrets.UPASS}}
