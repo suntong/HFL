@@ -8,7 +8,7 @@ env:
 
   CASCADIA_V: 1.2.5
   CASCADIA_F: cascadia_${CASCADIA_V}_linux_amd64
-
+ 
   TZ: 'America/Toronto'
 
 
@@ -48,24 +48,31 @@ jobs:
           path: |
             ~/downloaded
             ~/bin
-          key: bin_2021-07-16-B
+          key: bin_2021-07-17
 
       - name: Download Binary
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           env | grep CASCADIA_
+          mkdir -p ~/bin
           mkdir -p ~/downloaded
           cd ~/downloaded
           rm -f *
+          # cascadia
           wget https://github.com/suntong/cascadia/releases/download/v${CASCADIA_V}/${CASCADIA_F}.tar.gz
           tar -tvzf ${CASCADIA_F}.tar.gz
-          mkdir -p ~/bin
           tar -xvzf ${CASCADIA_F}.tar.gz -C ~/bin
           ln -vs ${CASCADIA_F}/cascadia ~/bin
+          # xsel
+          wget https://github.com/suntong/xsel/releases/download/v0.9.7/xsel_0.9.7_linux_amd64.tar.gz
+          tar -xvzf xsel_*.tar.gz -C ~/bin
+          ln -vs xsel_0.9.7_linux_amd64/xsel ~/bin
+          # 
           ls -l ~/bin ~/bin/${CASCADIA_F}
           ~/bin/${CASCADIA_F}/cascadia
           echo $PATH
           cascadia
+          xsel -h
 
           cd ~/downloaded
           apt-get download tidy
@@ -104,8 +111,13 @@ jobs:
             }
             instn=`echo $instu | sed -E 's|/.*$||; s/\+/_/g; s/%[[:xdigit:]]{2}//g'`
             echo "downloading $instn"
-            curl -b ~/downloaded/cookies $IURL_PRE/$instu/$IURL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no | sed '/<option value=/d' > I_$instn.html
+            curl -b ~/downloaded/cookies $IURL_PRE/$instu/$IURL_SUR | cascadia -o -i -c '#fund-holdings > div.subsection.holdings-container' --wrap-html --style '<link rel="stylesheet" href="insidermonkey.css">' | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no -asxhtml | sed '/<option value=/d; 1s/^.*$/<html>/' > I_$instn.html
           done < "$csvFile"
+
+          echo xsel
+          set -x
+          xsel -x '//tr[./td[text()="NEW"]]' -m -n I_*.html | tidy --quiet yes --show-errors 0 --doctype omit --clean yes --tidy-mark no > NEW.html || true
+
           ls -l
 
       - name: Commit changes
