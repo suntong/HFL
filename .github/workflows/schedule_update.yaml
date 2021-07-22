@@ -37,7 +37,7 @@ jobs:
         # makes it available to all subsequent actions in the current job
         # the currently running action cannot access the updated variable
         run: |
-          echo "Started at $(date -Iseconds)"
+          echo "Started at $(date --utc -Iseconds)"
           echo "$HOME/bin" >> $GITHUB_PATH
           echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
           echo "today=$(date -I)" >> $GITHUB_ENV
