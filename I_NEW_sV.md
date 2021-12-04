@@ -1,6 +1,6 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 1.|||20,410,961|858,893|NEW|46.58%|rel="bookmark"></a>
+ 1.||HOOD</a>|20,410,961|858,893|NEW|46.58%|<a href=rel="bookmark"></a>
 5.|||613,802|32,562|NEW|1.76%|rel="bookmark"></a>
 9.|||2,135,047|22,589|NEW|4.09%|rel="bookmark"></a>
 9.||MKTW</a>|2,500,000|20,650|NEW|4.07%|<a href=rel="bookmark"></a>
