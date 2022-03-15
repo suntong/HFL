@@ -42,4 +42,3 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 35.||CCV</a>|125,630|123|NEW|0.02%|<a href=rel="bookmark"></a>
 39.||PESI</a>|10,254|65|NEW|0.01%|<a href=rel="bookmark"></a>
 40.||SKYA</a>|76,821|63|NEW|0.01%|<a href=rel="bookmark"></a>
-1.|||0|0|NEW|0%|rel="bookmark"></a>
