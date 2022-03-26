@@ -1,7 +1,6 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 3.|||22,332,900|209,483|NEW|19.69%|rel="bookmark"></a>
-13.||EDU</a>|7,085,400|14,879|NEW|2.09%|<a href=rel="bookmark"></a>
+ 13.||EDU</a>|7,085,400|14,879|NEW|2.09%|<a href=rel="bookmark"></a>
 19.|||2,593,286|5,108|NEW|1.36%|rel="bookmark"></a>
 4.|||2,053,047|34,286|NEW|10.47%|rel="bookmark"></a>
 12.||YMM</a>|1,971,572|16,502|NEW|2.32%|<a href=rel="bookmark"></a>
@@ -40,6 +39,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 19.||KRA</a>|17,000|303|NEW|1.44%|<a href=rel="bookmark"></a>
 19.||MRCY</a>|13,100|721|NEW|0.32%|<a href=rel="bookmark"></a>
 39.||PESI</a>|10,254|65|NEW|0.01%|<a href=rel="bookmark"></a>
-8.||RBLX</a>|9,510|981|NEW|0.09%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367|NEW|1.74%|<a href=rel="bookmark"></a>
 1.|||0|0|NEW|0%|rel="bookmark"></a>
