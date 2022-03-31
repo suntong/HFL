@@ -25,7 +25,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 21.|||150,000|773|NEW|0.17%|rel="bookmark"></a>
 35.||CCV</a>|125,630|123|NEW|0.02%|<a href=rel="bookmark"></a>
 13.|||125,000|11,984|NEW|3.21%|rel="bookmark"></a>
-17.||KLXE</a>|92,000|382|NEW|1.81%|<a href=rel="bookmark"></a>
 40.||SKYA</a>|76,821|63|NEW|0.01%|<a href=rel="bookmark"></a>
 17.||OAS</a>|50,000|6,299|NEW|1.68%|<a href=rel="bookmark"></a>
 15.|||44,856|759|NEW|0.23%|rel="bookmark"></a>
@@ -35,11 +34,8 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 34.||QRHC</a>|24,220|168|NEW|0.03%|<a href=rel="bookmark"></a>
 15.||WBA</a>|24,000|1,252|NEW|0.08%|<a href=rel="bookmark"></a>
 31.|||20,000|257|NEW|0.06%|rel="bookmark"></a>
-23.||FREE</a>|20,000|167|NEW|0.79%|<a href=rel="bookmark"></a>
 16.||C</a>|20,000|1,208|NEW|0.07%|<a href=rel="bookmark"></a>
-19.||KRA</a>|17,000|303|NEW|1.44%|<a href=rel="bookmark"></a>
 19.||MRCY</a>|13,100|721|NEW|0.32%|<a href=rel="bookmark"></a>
 39.||PESI</a>|10,254|65|NEW|0.01%|<a href=rel="bookmark"></a>
 8.||RBLX</a>|9,510|981|NEW|0.09%|<a href=rel="bookmark"></a>
-18.||PRGO</a>|8,000|367|NEW|1.74%|<a href=rel="bookmark"></a>
 1.|||0|0|NEW|0%|rel="bookmark"></a>
