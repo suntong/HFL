@@ -42,3 +42,4 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 39.||PESI</a>|10,254|65|NEW|0.01%|<a href=rel="bookmark"></a>
 8.||RBLX</a>|9,510|981|NEW|0.09%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367|NEW|1.74%|<a href=rel="bookmark"></a>
+1.|||0|0|NEW|0%|rel="bookmark"></a>
