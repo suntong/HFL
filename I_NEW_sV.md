@@ -1,6 +1,8 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 3.|||22,332,900|209,483|NEW|19.69%|rel="bookmark"></a>
+ 9.||CNQ</a>|15,512,492|960,796|NEW|1.2%|<a href=rel="bookmark"></a>
+33.||SHEL</a>|10,000,840|549,346|NEW|0.68%|<a href=rel="bookmark"></a>
+3.|||22,332,900|209,483|NEW|19.69%|rel="bookmark"></a>
 7.||BEKE</a>|1,891,139|38,050|NEW|5.35%|<a href=rel="bookmark"></a>
 4.|||2,053,047|34,286|NEW|10.47%|rel="bookmark"></a>
 5.||TDOC</a>|300,000|27,546|NEW|6.2%|<a href=rel="bookmark"></a>

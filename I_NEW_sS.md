@@ -1,6 +1,8 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  3.|||22,332,900|209,483|NEW|19.69%|rel="bookmark"></a>
+9.||CNQ</a>|15,512,492|960,796|NEW|1.2%|<a href=rel="bookmark"></a>
+33.||SHEL</a>|10,000,840|549,346|NEW|0.68%|<a href=rel="bookmark"></a>
 13.||EDU</a>|7,085,400|14,879|NEW|2.09%|<a href=rel="bookmark"></a>
 19.|||2,593,286|5,108|NEW|1.36%|rel="bookmark"></a>
 4.|||2,053,047|34,286|NEW|10.47%|rel="bookmark"></a>

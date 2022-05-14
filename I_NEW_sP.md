@@ -25,9 +25,11 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 13.|||1,415,042|6,212|NEW|1.39%|rel="bookmark"></a>
 19.|||2,593,286|5,108|NEW|1.36%|rel="bookmark"></a>
 14.||DIBS</a>|466,766|5,839|NEW|1.31%|<a href=rel="bookmark"></a>
+9.||CNQ</a>|15,512,492|960,796|NEW|1.2%|<a href=rel="bookmark"></a>
 15.||SCPL</a>|175,000|2,412|NEW|1.08%|<a href=rel="bookmark"></a>
 22.||CTIC</a>|1,223,595|3,034|NEW|0.81%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167|NEW|0.79%|<a href=rel="bookmark"></a>
+33.||SHEL</a>|10,000,840|549,346|NEW|0.68%|<a href=rel="bookmark"></a>
 18.|||35,000|1,052|NEW|0.47%|rel="bookmark"></a>
 19.||MRCY</a>|13,100|721|NEW|0.32%|<a href=rel="bookmark"></a>
 11.||LYB</a>|40,500|3,735|NEW|0.24%|<a href=rel="bookmark"></a>
