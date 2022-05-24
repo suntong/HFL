@@ -12,7 +12,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 14.||ATUS</a>|900,010|11,232|NEW|2.6%|<a href=rel="bookmark"></a>
 17.||PDCE</a>|130,398|9,477|NEW|2.19%|<a href=rel="bookmark"></a>
 10.|||1,603,797|7,619|NEW|2.77%|rel="bookmark"></a>
-10.|||560,000|6,300|NEW|2.05%|rel="bookmark"></a>
+10.||ASTL</a>|560,000|6,300|NEW|2.05%|<a href=rel="bookmark"></a>
 7.||NCR</a>|132,500|5,325|NEW|3.07%|<a href=rel="bookmark"></a>
 22.||MIST</a>|683,570|4,388|NEW|1.01%|<a href=rel="bookmark"></a>
 10.||FLEX</a>|220,000|4,081|NEW|2.35%|<a href=rel="bookmark"></a>

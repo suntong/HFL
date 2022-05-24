@@ -12,7 +12,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 10.||FLEX</a>|220,000|4,081|NEW|2.35%|<a href=rel="bookmark"></a>
 17.||PDCE</a>|130,398|9,477|NEW|2.19%|<a href=rel="bookmark"></a>
 12.|||1,900,402|12,011|NEW|2.08%|rel="bookmark"></a>
-10.|||560,000|6,300|NEW|2.05%|rel="bookmark"></a>
+10.||ASTL</a>|560,000|6,300|NEW|2.05%|<a href=rel="bookmark"></a>
 17.||KLXE</a>|92,000|382|NEW|1.81%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367|NEW|1.74%|<a href=rel="bookmark"></a>
 19.||KRA</a>|17,000|303|NEW|1.44%|<a href=rel="bookmark"></a>
