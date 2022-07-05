@@ -33,4 +33,4 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 33.||LGV</a>|498,419|209|NEW|0.06%|<a href=rel="bookmark"></a>
 35.||TALK</a>|89,086|155|NEW|0.05%|<a href=rel="bookmark"></a>
 17.||TNET</a>|8|1|NEW|0%|<a href=rel="bookmark"></a>
-1.|||0|0|NEW|0%|rel="bookmark"></a>
+14.|||0|0|NEW|0%|rel="bookmark"></a>

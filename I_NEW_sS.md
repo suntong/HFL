@@ -33,4 +33,4 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 11.||SAFM</a>|7,000|1,312|NEW|0.07%|<a href=rel="bookmark"></a>
 31.||IBM</a>|5,000|650|NEW|0.15%|<a href=rel="bookmark"></a>
 17.||TNET</a>|8|1|NEW|0%|<a href=rel="bookmark"></a>
-1.|||0|0|NEW|0%|rel="bookmark"></a>
+14.|||0|0|NEW|0%|rel="bookmark"></a>
