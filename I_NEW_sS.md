@@ -3,7 +3,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
  9.||CNQ</a>|15,512,492|960,796|NEW|1.2%|<a href=rel="bookmark"></a>
 33.||SHEL</a>|10,000,840|549,346|NEW|0.68%|<a href=rel="bookmark"></a>
 4.||WETF</a>|4,521,979|26,544|NEW|6.15%|<a href=rel="bookmark"></a>
-5.|||2,671,664|25,729|NEW|9.38%|rel="bookmark"></a>
+5.||GRNA</a>|2,671,664|25,729|NEW|9.38%|<a href=rel="bookmark"></a>
 12.|||1,900,402|12,011|NEW|2.08%|rel="bookmark"></a>
 10.|||1,603,797|7,619|NEW|2.77%|rel="bookmark"></a>
 14.||ATUS</a>|900,010|11,232|NEW|2.6%|<a href=rel="bookmark"></a>

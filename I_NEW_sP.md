@@ -1,7 +1,7 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  4.|||794,493|18,337|NEW|10.58%|rel="bookmark"></a>
-5.|||2,671,664|25,729|NEW|9.38%|rel="bookmark"></a>
+5.||GRNA</a>|2,671,664|25,729|NEW|9.38%|<a href=rel="bookmark"></a>
 4.||CVNA</a>|812,713|96,949|NEW|9.07%|<a href=rel="bookmark"></a>
 4.||WETF</a>|4,521,979|26,544|NEW|6.15%|<a href=rel="bookmark"></a>
 6.||GDS</a>|847,022|33,246|NEW|5.78%|<a href=rel="bookmark"></a>
