@@ -13,7 +13,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 12.||FLEX</a>|120,000|1,999|NEW|1.32%|<a href=rel="bookmark"></a>
 13.|||109,875|1,543|NEW|1.02%|rel="bookmark"></a>
 17.||KLXE</a>|92,000|382|NEW|1.81%|<a href=rel="bookmark"></a>
-9.||SKIL</a>|88,029|161|NEW|0.05%|<a href=rel="bookmark"></a>
 31.||MIRM</a>|80,000|1,715|NEW|0.37%|<a href=rel="bookmark"></a>
 17.||PRM</a>|75,000|601|NEW|0.36%|<a href=rel="bookmark"></a>
 39.|||33,334|5|NEW|0%|rel="bookmark"></a>

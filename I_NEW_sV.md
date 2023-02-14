@@ -20,7 +20,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 20.|||150,000|338|NEW|0.2%|rel="bookmark"></a>
 19.||KRA</a>|17,000|303|NEW|1.44%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167|NEW|0.79%|<a href=rel="bookmark"></a>
-9.||SKIL</a>|88,029|161|NEW|0.05%|<a href=rel="bookmark"></a>
 40.||MSFT</a>|100|23|NEW|0%|<a href=rel="bookmark"></a>
 39.|||33,334|5|NEW|0%|rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
