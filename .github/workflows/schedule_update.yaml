@@ -42,6 +42,11 @@ jobs:
           echo "CASCADIA_F=cascadia_${CASCADIA_V}_linux_amd64" >> $GITHUB_ENV
           echo "today=$(date -I)" >> $GITHUB_ENV
 
+      - name: Cache tidy
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: tidy
+
       - name: Cache Binary
         uses: actions/cache@v2
         id: cache
@@ -54,6 +59,8 @@ jobs:
       - name: Download Binary
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
+          tidy -version
+          
           mkdir -p ~/bin
           mkdir -p ~/downloaded
           cd ~/downloaded
@@ -73,14 +80,6 @@ jobs:
           echo $PATH
           cascadia
           xsel -h
-
-          cd ~/downloaded
-          apt-get download tidy
-          debFile=`ls tidy_*_amd64.deb`
-          ar p $debFile data.tar.xz | tar xJv --strip-components=2 -f - -C ~/
-          ls -l ~/bin
-          tidy -version
-
 
       - name: Update
         run: |
