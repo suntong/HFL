@@ -5,9 +5,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 7.||CPNG</a>|1,235,755|18,177,956|NEW|4.4%|<a href=rel="bookmark"></a>
 2.||BIDU</a>|507,263|58,020,742|NEW|14.06%|<a href=rel="bookmark"></a>
 6.||IEF</a>|500,000|18,950,000|NEW|2.69%|<a href=rel="bookmark"></a>
-4.||U</a>|403,416|11,534|NEW|8.67%|<a href=rel="bookmark"></a>
 11.|||275,984|2,164|NEW|1.39%|rel="bookmark"></a>
-15.|||227,354|385|NEW|0.28%|rel="bookmark"></a>
 10.|||135,000|2,701,350|NEW|1.62%|rel="bookmark"></a>
 13.|||115,000|1,978,000|NEW|1.18%|rel="bookmark"></a>
 17.||KLXE</a>|92,000|382|NEW|1.81%|<a href=rel="bookmark"></a>
