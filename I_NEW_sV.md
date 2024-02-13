@@ -22,6 +22,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 14.|||6,375|11,099|NEW|0.55%|rel="bookmark"></a>
 15.|||103,402|7,817|NEW|0.39%|rel="bookmark"></a>
 31.||CVX</a>|46|7,757|NEW|0%|<a href=rel="bookmark"></a>
-6.|||1,125,315|5,672|NEW|4.39%|rel="bookmark"></a>
-9.|||80,188|659|NEW|0.51%|rel="bookmark"></a>
+11.||DNLI</a>|3,042|66|NEW|0.06%|<a href=rel="bookmark"></a>
+12.||SRRK</a>|2,842|54|NEW|0.04%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>

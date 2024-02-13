@@ -1,7 +1,6 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  3.||CART</a>|1,610,560|47,817,526|NEW|12.24%|<a href=rel="bookmark"></a>
-6.|||1,125,315|5,672|NEW|4.39%|rel="bookmark"></a>
 22.|||1,000,000|647,930|NEW|0.28%|rel="bookmark"></a>
 3.||TSM</a>|469,617|40,809,717|NEW|10.62%|<a href=rel="bookmark"></a>
 6.||MODG</a>|420,000|5,812,800|NEW|3.95%|<a href=rel="bookmark"></a>
@@ -13,7 +12,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 6.||HOMB</a>|103,400|2,165,196|NEW|0.15%|<a href=rel="bookmark"></a>
 17.||KLXE</a>|92,000|382,000|NEW|1.81%|<a href=rel="bookmark"></a>
 26.||HARP</a>|82,458|332,306|NEW|0.14%|<a href=rel="bookmark"></a>
-9.|||80,188|659|NEW|0.51%|rel="bookmark"></a>
 18.||AVDL</a>|80,000|824,000|NEW|0.36%|<a href=rel="bookmark"></a>
 20.|||78,000|697,320|NEW|0.31%|rel="bookmark"></a>
 23.||REPL</a>|35,000|598,850|NEW|0.26%|<a href=rel="bookmark"></a>
@@ -23,5 +21,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
 14.|||6,375|11,099|NEW|0.55%|rel="bookmark"></a>
+11.||DNLI</a>|3,042|66|NEW|0.06%|<a href=rel="bookmark"></a>
+12.||SRRK</a>|2,842|54|NEW|0.04%|<a href=rel="bookmark"></a>
 31.||CVX</a>|46|7,757|NEW|0%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
