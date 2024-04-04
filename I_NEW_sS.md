@@ -6,7 +6,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 6.|||210,000|5,100,900|NEW|7.44%|rel="bookmark"></a>
 14.||MUFG</a>|126,161|1,086,246|NEW|0.23%|<a href=rel="bookmark"></a>
 12.||EDU</a>|121,400|8,896,192|NEW|1.89%|<a href=rel="bookmark"></a>
-21.||APAC</a>|100,000|31|NEW|0%|<a href=rel="bookmark"></a>
+21.||APAC</a>|100,000|3,080|NEW|0%|<a href=rel="bookmark"></a>
 17.||KLXE</a>|92,000|382,000|NEW|1.81%|<a href=rel="bookmark"></a>
 15.||NFYS</a>|78,125|833,594|NEW|0.41%|<a href=rel="bookmark"></a>
 15.||SMFG</a>|66,098|639,829|NEW|0.13%|<a href=rel="bookmark"></a>

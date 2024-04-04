@@ -17,5 +17,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 28.|||2,083,438|93,755|NEW|0.04%|rel="bookmark"></a>
 11.||DNLI</a>|3,042|66,000|NEW|0.06%|<a href=rel="bookmark"></a>
 12.||SRRK</a>|2,842|54,000|NEW|0.04%|<a href=rel="bookmark"></a>
-21.||APAC</a>|100,000|31|NEW|0%|<a href=rel="bookmark"></a>
+21.||APAC</a>|100,000|3,080|NEW|0%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
