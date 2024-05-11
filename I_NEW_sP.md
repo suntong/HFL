@@ -14,8 +14,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 14.||MUFG</a>|126,161|1,086,246|NEW|0.23%|<a href=rel="bookmark"></a>
 15.||SMFG</a>|66,098|639,829|NEW|0.13%|<a href=rel="bookmark"></a>
 25.||AMLX</a>|14,000|206,080|NEW|0.1%|<a href=rel="bookmark"></a>
-11.||DNLI</a>|3,042|66,000|NEW|0.06%|<a href=rel="bookmark"></a>
 28.|||2,083,438|93,755|NEW|0.04%|rel="bookmark"></a>
-12.||SRRK</a>|2,842|54,000|NEW|0.04%|<a href=rel="bookmark"></a>
 21.||APAC</a>|100,000|3,080|NEW|0%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>

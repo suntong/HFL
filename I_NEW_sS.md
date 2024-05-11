@@ -16,6 +16,4 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
 25.||AMLX</a>|14,000|206,080|NEW|0.1%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
-11.||DNLI</a>|3,042|66,000|NEW|0.06%|<a href=rel="bookmark"></a>
-12.||SRRK</a>|2,842|54,000|NEW|0.04%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
