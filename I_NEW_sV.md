@@ -1,18 +1,18 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 8.|||1,003,800|16,361,940|NEW|3.79%|rel="bookmark"></a>
-5.|||884,607|11,455,661|NEW|4.85%|rel="bookmark"></a>
-8.||LPX</a>|104,617|8,778,412|NEW|3.71%|<a href=rel="bookmark"></a>
-5.|||50,000|4,744,500|NEW|2.65%|rel="bookmark"></a>
-8.||GERN</a>|600,000|1,980,000|NEW|1.1%|<a href=rel="bookmark"></a>
-14.||MIRM</a>|45,000|1,130,400|NEW|0.63%|<a href=rel="bookmark"></a>
-16.||NBIX</a>|7,500|1,034,400|NEW|0.57%|<a href=rel="bookmark"></a>
-17.||JSPR</a>|32,000|939,520|NEW|0.52%|<a href=rel="bookmark"></a>
-19.|||60,000|774,600|NEW|0.43%|rel="bookmark"></a>
-21.||RGNX</a>|32,500|684,775|NEW|0.38%|<a href=rel="bookmark"></a>
+ 5.||IEF</a>|1,040,000|27,029,600|NEW|7.22%|<a href=rel="bookmark"></a>
+9.||XPEV</a>|1,726,438|12,654,791|NEW|3.38%|<a href=rel="bookmark"></a>
+11.||YMM</a>|811,008|6,520,504|NEW|1.74%|<a href=rel="bookmark"></a>
+8.|||104,691|1,954,581|NEW|3.56%|rel="bookmark"></a>
+11.||BBIO</a>|49,000|1,241,170|NEW|2.26%|<a href=rel="bookmark"></a>
+12.|||82,500|1,159,950|NEW|2.11%|rel="bookmark"></a>
+13.|||30,000|684,900|NEW|0.18%|rel="bookmark"></a>
+11.|||22,500|525,150|NEW|0.59%|rel="bookmark"></a>
 17.||KLXE</a>|92,000|382,000|NEW|1.81%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
+12.||CC</a>|15,000|338,550|NEW|0.38%|<a href=rel="bookmark"></a>
 19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
+13.||DAY</a>|5,030|249,488|NEW|0.28%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
-29.||SPRB</a>|75,000|58,943|NEW|0.03%|<a href=rel="bookmark"></a>
+18.||SNES</a>|1,162.2|6,694|NEW|0%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
