@@ -14,4 +14,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 12.||CC</a>|15,000|338,550|NEW|0.38%|<a href=rel="bookmark"></a>
 13.||DAY</a>|5,030|249,488|NEW|0.28%|<a href=rel="bookmark"></a>
 13.|||30,000|684,900|NEW|0.18%|rel="bookmark"></a>
+18.||SNES</a>|1,162.2|6,694|NEW|0%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
