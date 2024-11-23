@@ -2,7 +2,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  4.||PDD</a>|325,172|43,836,437|NEW|8.35%|<a href=rel="bookmark"></a>
 5.|||1,000,000|34,020,000|NEW|6.48%|rel="bookmark"></a>
-8.|||501,613|11,853,115|NEW|5.04%|rel="bookmark"></a>
 6.|||35,400|1,768,938|NEW|3.93%|rel="bookmark"></a>
 8.||YY</a>|552,847|20,035,175|NEW|3.81%|<a href=rel="bookmark"></a>
 10.||MITK</a>|175,000|1,517,250|NEW|1.84%|<a href=rel="bookmark"></a>
