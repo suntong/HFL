@@ -2,6 +2,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  4.||PDD</a>|325,172|43,836,437|NEW|8.35%|<a href=rel="bookmark"></a>
 5.|||1,000,000|34,020,000|NEW|6.48%|rel="bookmark"></a>
+8.|||501,613|11,853,115|NEW|5.04%|rel="bookmark"></a>
 6.|||35,400|1,768,938|NEW|3.93%|rel="bookmark"></a>
 8.||YY</a>|552,847|20,035,175|NEW|3.81%|<a href=rel="bookmark"></a>
 10.||MITK</a>|175,000|1,517,250|NEW|1.84%|<a href=rel="bookmark"></a>
@@ -17,7 +18,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 20.||ARQT</a>|35,100|326,430|NEW|0.72%|<a href=rel="bookmark"></a>
 11.|||8,860|470,909|NEW|0.57%|rel="bookmark"></a>
 12.||LBRDA</a>|3,620|279,790|NEW|0.34%|<a href=rel="bookmark"></a>
-9.|||50,704|365,069|NEW|0.33%|rel="bookmark"></a>
 13.||IAC</a>|4,960|266,947|NEW|0.32%|<a href=rel="bookmark"></a>
-10.|||5,683|46,316|NEW|0.04%|rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
