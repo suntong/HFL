@@ -18,7 +18,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 20.||ARQT</a>|35,100|326,430|NEW|0.72%|<a href=rel="bookmark"></a>
 11.||BN</a>|8,860|470,909|NEW|0.57%|<a href=rel="bookmark"></a>
 12.||LBRDA</a>|3,620|279,790|NEW|0.34%|<a href=rel="bookmark"></a>
-9.|||50,704|365,069|NEW|0.33%|rel="bookmark"></a>
 13.||IAC</a>|4,960|266,947|NEW|0.32%|<a href=rel="bookmark"></a>
-10.|||5,683|46,316|NEW|0.04%|rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
