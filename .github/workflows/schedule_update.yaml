@@ -48,7 +48,7 @@ jobs:
           packages: tidy
 
       - name: Cache Binary
-        uses: actions/cache@v2
+        uses: actions/cache@latest
         id: cache
         with:
           path: |
