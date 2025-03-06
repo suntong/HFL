@@ -2,6 +2,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
  1.||SPY</a>|600,000|351,648,000|NEW|56.24%|<a href=rel="bookmark"></a>
 6.||BEKE</a>|940,227|17,318,981|NEW|4.63%|<a href=rel="bookmark"></a>
+15.||BLUE</a>|78,912|658,126|NEW|3.44%|<a href=rel="bookmark"></a>
 8.|||3,936,662|9,408,622|NEW|2.51%|rel="bookmark"></a>
 9.||XRAY</a>|90,000|1,708,200|NEW|2.43%|<a href=rel="bookmark"></a>
 8.||PAR</a>|200,000|14,534,000|NEW|2.32%|<a href=rel="bookmark"></a>
