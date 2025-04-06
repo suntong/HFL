@@ -18,6 +18,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 14.|||134,600|2,681,232|NEW|0.71%|rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
 14.||FMX</a>|3,255|278,270|NEW|0.39%|<a href=rel="bookmark"></a>
+4.||AMPL</a>|85,640|903,502|NEW|0.15%|<a href=rel="bookmark"></a>
 14.||ALLT</a>|100,000|595,000|NEW|0.09%|<a href=rel="bookmark"></a>
 16.||APPS</a>|180,900|305,721|NEW|0.04%|<a href=rel="bookmark"></a>
 9.||OXY</a>|9,000|444,690|NEW|0.03%|<a href=rel="bookmark"></a>
