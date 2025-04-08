@@ -17,6 +17,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
 14.|||134,600|2,681,232|NEW|0.71%|rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
+39.||ANET</a>|5,415,621|598,588,589|NEW|0.47%|<a href=rel="bookmark"></a>
 14.||FMX</a>|3,255|278,270|NEW|0.39%|<a href=rel="bookmark"></a>
 4.||AMPL</a>|85,640|903,502|NEW|0.15%|<a href=rel="bookmark"></a>
 14.||ALLT</a>|100,000|595,000|NEW|0.09%|<a href=rel="bookmark"></a>

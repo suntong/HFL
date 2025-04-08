@@ -1,6 +1,7 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 1.||SPY</a>|600,000|351,648,000|NEW|56.24%|<a href=rel="bookmark"></a>
+ 39.||ANET</a>|5,415,621|598,588,589|NEW|0.47%|<a href=rel="bookmark"></a>
+1.||SPY</a>|600,000|351,648,000|NEW|56.24%|<a href=rel="bookmark"></a>
 6.||BEKE</a>|940,227|17,318,981|NEW|4.63%|<a href=rel="bookmark"></a>
 5.||ET</a>|852,900|16,708,311|NEW|1.41%|<a href=rel="bookmark"></a>
 8.||PAR</a>|200,000|14,534,000|NEW|2.32%|<a href=rel="bookmark"></a>

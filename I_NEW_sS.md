@@ -1,6 +1,7 @@
 No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 |--- | --- | --- | ---:| ---:|:---:| ---:|
- 8.|||3,936,662|9,408,622|NEW|2.51%|rel="bookmark"></a>
+ 39.||ANET</a>|5,415,621|598,588,589|NEW|0.47%|<a href=rel="bookmark"></a>
+8.|||3,936,662|9,408,622|NEW|2.51%|rel="bookmark"></a>
 6.||BEKE</a>|940,227|17,318,981|NEW|4.63%|<a href=rel="bookmark"></a>
 5.||ET</a>|852,900|16,708,311|NEW|1.41%|<a href=rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
