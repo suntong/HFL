@@ -16,13 +16,9 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 15.||BLUE</a>|78,912|658,126|NEW|3.44%|<a href=rel="bookmark"></a>
 14.||ALLT</a>|100,000|595,000|NEW|0.09%|<a href=rel="bookmark"></a>
 9.||OXY</a>|9,000|444,690|NEW|0.03%|<a href=rel="bookmark"></a>
-17.||KLXE</a>|92,000|382,000|NEW|1.81%|<a href=rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
-18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
 16.||APPS</a>|180,900|305,721|NEW|0.04%|<a href=rel="bookmark"></a>
-19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
 14.||FMX</a>|3,255|278,270|NEW|0.39%|<a href=rel="bookmark"></a>
 10.||EOG</a>|2,000|245,160|NEW|0.02%|<a href=rel="bookmark"></a>
-23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
 19.||QRHC</a>|11,054|71,851|NEW|0.01%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
