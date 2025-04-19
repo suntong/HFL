@@ -10,7 +10,6 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
 12.||KC</a>|575,504|6,037,037|NEW|1.61%|<a href=rel="bookmark"></a>
 19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
-5.||ET</a>|852,900|16,708,311|NEW|1.41%|<a href=rel="bookmark"></a>
 12.||BNED</a>|519,897|5,219,766|NEW|0.83%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
 14.|||134,600|2,681,232|NEW|0.71%|rel="bookmark"></a>
@@ -18,7 +17,5 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 4.||AMPL</a>|85,640|903,502|NEW|0.15%|<a href=rel="bookmark"></a>
 14.||ALLT</a>|100,000|595,000|NEW|0.09%|<a href=rel="bookmark"></a>
 16.||APPS</a>|180,900|305,721|NEW|0.04%|<a href=rel="bookmark"></a>
-9.||OXY</a>|9,000|444,690|NEW|0.03%|<a href=rel="bookmark"></a>
-10.||EOG</a>|2,000|245,160|NEW|0.02%|<a href=rel="bookmark"></a>
 19.||QRHC</a>|11,054|71,851|NEW|0.01%|<a href=rel="bookmark"></a>
 14.|||0|0|NEW|0%|rel="bookmark"></a>
