@@ -13,6 +13,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 9.||XRAY</a>|90,000|1,708,200|NEW|2.43%|<a href=rel="bookmark"></a>
 10.||WDC</a>|29,767.5|1,341,675|NEW|1.91%|<a href=rel="bookmark"></a>
 4.||AMPL</a>|85,640|903,502|NEW|0.15%|<a href=rel="bookmark"></a>
+15.||BLUE</a>|78,912|658,126|NEW|3.44%|<a href=rel="bookmark"></a>
 14.||ALLT</a>|100,000|595,000|NEW|0.09%|<a href=rel="bookmark"></a>
 9.||OXY</a>|9,000|444,690|NEW|0.03%|<a href=rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
