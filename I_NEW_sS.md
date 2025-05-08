@@ -4,6 +4,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 8.|||3,936,662|9,408,622|NEW|2.51%|rel="bookmark"></a>
 12.||APPS</a>|1,025,951|2,785,457|NEW|1.14%|<a href=rel="bookmark"></a>
 6.||BEKE</a>|940,227|17,318,981|NEW|4.63%|<a href=rel="bookmark"></a>
+5.||ET</a>|852,900|16,708,311|NEW|1.41%|<a href=rel="bookmark"></a>
 13.|||780,771|376,332|NEW|0.53%|rel="bookmark"></a>
 12.||KC</a>|575,504|6,037,037|NEW|1.61%|<a href=rel="bookmark"></a>
 10.||HMC</a>|288,100|8,225,255|NEW|2.19%|<a href=rel="bookmark"></a>
@@ -17,5 +18,8 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 10.||WDC</a>|29,767.5|1,341,675|NEW|1.91%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
 19.||KRA</a>|17,000|303,000|NEW|1.44%|<a href=rel="bookmark"></a>
+9.||OXY</a>|9,000|444,690|NEW|0.03%|<a href=rel="bookmark"></a>
 18.||PRGO</a>|8,000|367,000|NEW|1.74%|<a href=rel="bookmark"></a>
 14.||FMX</a>|3,255|278,270|NEW|0.39%|<a href=rel="bookmark"></a>
+10.||EOG</a>|2,000|245,160|NEW|0.02%|<a href=rel="bookmark"></a>
+14.|||0|0|NEW|0%|rel="bookmark"></a>
