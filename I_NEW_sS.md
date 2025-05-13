@@ -8,6 +8,7 @@ No. | Security | Ticker | Shares | Value (x$1000) | Activity | % Port
 9.||XRAY</a>|90,000|1,708,200|NEW|2.43%|<a href=rel="bookmark"></a>
 4.||AMPL</a>|85,640|903,502|NEW|0.15%|<a href=rel="bookmark"></a>
 13.|||85,200|2,161,524|NEW|0.88%|rel="bookmark"></a>
+15.||BLUE</a>|78,912|658,126|NEW|3.44%|<a href=rel="bookmark"></a>
 15.||NN</a>|60,000|730,200|NEW|0.3%|<a href=rel="bookmark"></a>
 10.||WDC</a>|29,767.5|1,341,675|NEW|1.91%|<a href=rel="bookmark"></a>
 23.||FREE</a>|20,000|167,000|NEW|0.79%|<a href=rel="bookmark"></a>
